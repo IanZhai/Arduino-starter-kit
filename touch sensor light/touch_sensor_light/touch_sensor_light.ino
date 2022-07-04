@@ -19,5 +19,6 @@ if(sensorValue > threshold){
 else{
   digitalWrite(ledPin, LOW);
 }
-delay(10);
+delay(9);
 }
+
