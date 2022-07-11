@@ -4,8 +4,8 @@ PImage logo;
 int bgcolor = 0;
 void setup(){
   colorMode(HSB, 255);
-  logo = loadImage("http://arduino.org/logo.png");
-  size(logo.width, logo.height);
+  logo = loadImage("https://www.arduino.cc/en/pub/skins/arduinoWide/img/logo.png");
+  size(200, 200);
   println("Avalable serial ports");
   println(Serial.list());
   myPort =
